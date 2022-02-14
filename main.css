@@ -37,7 +37,8 @@ p.top-nav-left1 {
 .top-nav-2 {
     list-style-type: none;
     display:flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 40px;
 }
 a.top-nav-li2{
     color:azure;
