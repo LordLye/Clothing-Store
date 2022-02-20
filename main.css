@@ -13,48 +13,88 @@ main{grid-area: main;}
 footer{grid-area: footer;}
 
 .top-nav {
+    position: absolute;
     width: 1920px;
     height: 44px;
     background-color:rgb(63, 59, 59);
     display:flex;
-   
 }
-.bot-nav {
-    width: 1920px;
-    height: 128px;
-    background-color:rgb(221, 217, 217);
-
-}
-.top-nav-1 {
+.toolbar1-nav {
     list-style-type: none;
     display:flex;
+    flex-direction: row;
     justify-content: space-evenly;
+    align-items: center;
+    margin-top: calc(44px/2 - 21px/2);
+    height: 21px;
+
 }
-a.top-nav-li1{
-    color:azure;
-}
-p.top-nav-left1 {
-    text-align: center;
-}
-.top-nav-2 {
+.toolbar2-nav {
     list-style-type: none;
     display:flex;
     justify-content: center;
-    gap: 40px;
+    gap: 60px;
+    align-items: center;
+    height: 44px;
 }
-a.top-nav-li2{
-    color:azure;
+.top-nav__left__p{
+position: absolute;
+width: 206px;
+height: 21px;
+left: 345px;
+top: calc(50% - 21px/2 - 0.5px);
 }
-.top-nav-left {
+.top-nav_font{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;  
+    color: #FFFFFF;
+    opacity: 0.6;
+}
+.top-nav_font2 {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #FFFFFF;
+    opacity: 0.6;
+}
+.top-nav_font3 {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+.toolbar2-nav__lang__ul {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    align-items:center;
+    width: 100px;
+    height: 41px;
+}
+.toolbar2-nav__acc__ul {
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+    width: 124px;
+    height: 21px;
+}
+.top-nav__left {
     width:33.33%;
-    background-color: aqua;
+    background-color: #1E212C;
+    display: flex;
+    align-items: center;
 }
-.top-nav-middle {
+.top-nav__middle {
     width:33.33%;
-    background-color: rgb(255, 0, 255);
+    background-color: #1E212C;
 }
-.top-nav-right {
+.top-nav__right {
     width:33.33%;
-    background-color: rgb(76, 0, 255);
+    background-color: #1E212C;
 }
-
